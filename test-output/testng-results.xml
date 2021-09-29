@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14304" started-at="2021-09-28T20:35:04 CDT" finished-at="2021-09-28T20:35:18 CDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14304" started-at="2021-09-28T20:35:04 CDT" finished-at="2021-09-28T20:35:18 CDT">
+      <class name="com.sapiensAcademy.ProyectoFinal.Proyecto">
+        <test-method status="PASS" signature="abrirNavegador()[pri:0, instance:com.sapiensAcademy.ProyectoFinal.Proyecto@4a3631f8]" name="abrirNavegador" is-config="true" duration-ms="1967" started-at="2021-09-28T20:35:02 CDT" finished-at="2021-09-28T20:35:04 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirNavegador -->
+        <test-method status="PASS" signature="agregarProducto()[pri:0, instance:com.sapiensAcademy.ProyectoFinal.Proyecto@4a3631f8]" name="agregarProducto" duration-ms="4435" started-at="2021-09-28T20:35:04 CDT" finished-at="2021-09-28T20:35:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agregarProducto -->
+        <test-method status="PASS" signature="borrarElemento()[pri:0, instance:com.sapiensAcademy.ProyectoFinal.Proyecto@4a3631f8]" name="borrarElemento" duration-ms="2288" started-at="2021-09-28T20:35:09 CDT" depends-on-methods="com.sapiensAcademy.ProyectoFinal.Proyecto.agregarProducto" finished-at="2021-09-28T20:35:11 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- borrarElemento -->
+        <test-method status="PASS" signature="agregarVarios()[pri:0, instance:com.sapiensAcademy.ProyectoFinal.Proyecto@4a3631f8]" name="agregarVarios" duration-ms="6252" started-at="2021-09-28T20:35:11 CDT" depends-on-methods="com.sapiensAcademy.ProyectoFinal.Proyecto.borrarElemento" finished-at="2021-09-28T20:35:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agregarVarios -->
+        <test-method status="PASS" signature="validarCarrito()[pri:0, instance:com.sapiensAcademy.ProyectoFinal.Proyecto@4a3631f8]" name="validarCarrito" duration-ms="1250" started-at="2021-09-28T20:35:17 CDT" depends-on-methods="com.sapiensAcademy.ProyectoFinal.Proyecto.agregarVarios" finished-at="2021-09-28T20:35:18 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validarCarrito -->
+        <test-method status="PASS" signature="cerrarNavegador()[pri:0, instance:com.sapiensAcademy.ProyectoFinal.Proyecto@4a3631f8]" name="cerrarNavegador" is-config="true" duration-ms="185" started-at="2021-09-28T20:35:19 CDT" finished-at="2021-09-28T20:35:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarNavegador -->
+      </class> <!-- com.sapiensAcademy.ProyectoFinal.Proyecto -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
